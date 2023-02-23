@@ -1,3 +1,3 @@
 # My personnal Portfolio
 
-<img src="page.png">
+<img src="portfolio.png">
