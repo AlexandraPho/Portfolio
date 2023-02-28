@@ -3,27 +3,27 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Alexandra Pinheiro</title>
+    <title>Portfolio Alexandra Pinheiro</title>
     <!-- default favicon -->
-    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/png">
+    <link rel="shortcut icon" href="assets/favicon/favicon.png" type="image/png">
     <!-- main styles -->
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
     <!-- Page navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+    <nav class="navbar fixed-top">
         <div class="container">
+            <!--Personnal Logo-->
             <a class="navbar-brand" href="#home"><img src="assets/img/A.png" alt="logo"></a>
-            <button class="navbar-menu">
-                <!--<img src="assets/img/icons/menu.png" class="menu-icon">-->
+            
                 <!--<img src="assets/img/icons/close.png" class="close-icon">-->
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto align-items-center">
+            <!--div menu-->
+            <div class="navbar-collapse" id="navbar-menu">
+                <ul class="navbar-nav align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link " href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Qui suis-je</a>
@@ -34,12 +34,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
-                   
                     <li class="nav-item">
-                        <a class="- btn btn-primary rounded ml-4" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Contactez-moi</a>
                     </li>
                 </ul>
             </div>
+            <!--End of menu-->
+            <img src="assets/img/icons/menu.png" class="menu-icon" alt="hamburger-menu">
         </div>          
     </nav>
     <!-- End of page navibation -->
@@ -50,7 +51,6 @@
             <div class="infos">
                 <h6 class="subtitle">Hello, je suis</h6>
                 <h6 class="title">Alexandra Pinheiro</h6>
-                <p>Développeuse Web</p>
 
                 <div class="buttons pt-3">
                     <button class="btn btn-primary rounded" download><a href="assets/img/Alexandra_Pinheiro_DWeb.pdf" download target="_blank" class="button">Télécharger mon CV</a></button>
@@ -74,12 +74,20 @@
         <div class="container mt-5">
             <div class="row text-center text-md-left">
                 <div class="col-md-3">
-                    <img src="assets/img/portrait.jpg" alt="" class="img-thumbnail mb-4">
+                    <img src="assets/img/portrait.png" alt="photo-alexandra" class="img-thumbnail mb-4">
+                    <img src="assets/img/atelier.png" alt="photo-atelier" class="img-thumbnail mb-4">
                 </div>
                 <div class="pl-md-4 col-md-9">
                     <h6 class="title">Je suis Alexandra,</h6>
-                    <p class="subtitle">Développeuse Web</p>
-                    <p>passionnée par le web et le graphisme. J'ai décidé d'effectuer une reconversion professionnelle afin de mettre à profit mon expertise graphique et artistique  dans le domaine du web, et ainsi contribuer à la création d'expériences en ligne uniques.</p>
+                    <p class="subtitle">Développeuse Web et illustratrice </p>
+                    <p>passionnée d'art depuis toujours. J'ai récemment décidé de mettre à profit mes <span class="word-about">compétences graphiques et artistiques</span> dans le domaine du web.<br>
+                    <br>
+                    Mon expérience en tant que vitrailliste m'a permis de réaliser des projets d'envergure en suivant une méthodologie, comprenant l'établissement de cahiers des charges, la création de maquettes, puis la réalisation finale des créations commandées par les clients.<br>
+                    Mon portfolio comprend une variété de créations, allant des sites web aux logos, illustrations et dessins, reflétant ainsi la diversité de mes compétences créatives.<br>
+                    <br>
+                    Je suis une personne qui aime <span class="word-about">apprendre et se dépasser</span>. Ma passion pour l'art, la culture m'a conduit à une quête perpétuelle de connaissances, de nouvelles tendances et de nouvelles technologies dans le domaine du web.
+                    Je suis toujours prête à relever de nouveaux défis pour aider mes clients à atteindre leurs objectifs en ligne avec des créations visuelles uniques.
+                   </p>
                     <!--<button class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>-->                  
                 </div>
             </div>
@@ -91,7 +99,7 @@
         <div class="container text-center">
             <h6 class="subtitle">Compétences</h6>
             <h6 class="section-title mb-4">Mes soft-skills</h6>
-            <p class="mb-5 pb-4">Mes diverses expériences professionnelles m'ont permis d'acquérir des compétences transversales.</p>
+            <p class="mb-5 pb-4">Mes diverses expériences professionnelles et personnelles m'ont permis d'acquérir des compétences transversales.</p>
 
             <div class="row">
                 <div class="col-sm-6 col-md-3 mb-4">
@@ -136,7 +144,7 @@
         <div class="container text-center">
             <h6 class="subtitle">Skills</h6>
             <h6 class="section-title mb-4">La stack technique</h6>
-            <p class="mb-5 pb-4">Au cours de mes projets j'ai pû utiliser ces quelques outils. <br> Mais étant une grande curieuse, je continue de me former soit pour m'améliorer, soit pour découvrir de nouveaux outils. </p>
+            <p class="mb-5 pb-4">Au cours de mes projets j'ai pû utiliser ces quelques outils. <br> Mais étant une grande curieuse, je continue de me former pour m'améliorer et pour découvrir de nouveaux outils. </p>
 
             <div class="row text-left">
                 <div class="col-sm-6">
@@ -148,31 +156,43 @@
                 <div class="col-sm-6">
                     <h6 class="mb-3">Javascript</h6>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <h6 class="mb-3">PHP</h6>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <h6 class="mb-3">Vue.JS</h6>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <h6 class="mb-3">WordPress</h6>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <h6 class="mb-3">SQL</h6>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Krita</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Figma</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
                     </div>
                 </div>
             </div>  
@@ -189,7 +209,7 @@
 
             <div class="row">
                 <!--First column-->
-                <div class="col-sm-4">
+                <div class="col-sm-5">
                     <div class="img-wrapper">
                         <img class="folio-img" src="assets/img/spotart.png" alt="spotart">
                         <div class="overlay">
@@ -198,50 +218,29 @@
                                 <a class="overlay-item" href="https://github.com/AlexandraPho/Spotart-front"><img class="overlay-img" src="assets/img/icons/link.png" alt="icon-linkedin"></a>
                             </div>  
                         </div>
+                    </div>  
+                    <div class="img-design-logo">
+                        <img class="folio-img-zoom" src="assets/img/logoPortfolio.png" alt="logo">
                     </div>
-                    <!--<div class="img-wrapper">
-                        <img class="folio-img" src="assets/img/img.png" alt="MonOranger">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5></h5>
-                                <a class="social-item" ><img class="social-img" src="assets/img/link.png" alt="icon-linkedin"></a>
-                            </div>                              
-                        </div>
-                    </div>  -->                
                 </div>
-                <!--Second column-->
-                <div class="col-sm-4">
+                
+                <!--Third column-->
+                <div class="col-sm-5">
+                    <div class="img-design">
+                        <img class="folio-img-zoom" src="assets/img/monOranger.png" alt="monOranger">
+                    </div> 
                     <div class="img-wrapper">
-                        <img class="folio-img" src="assets/img/amahe-img.png" alt="Auxmainsdamahe">
+                        <img class="folio-img" src="assets/img/amahe.png" alt="Auxmainsdamahe">
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Aux mains d'Amahé</h5>
                                 <a class="overlay-item" href="https://github.com/AlexandraPho/AuxMainsdAmahe"><img class="overlay-img" src="assets/img/icons/link.png" alt="icon-linkedin"></a>
                             </div>  
                         </div>
-                    </div>
-                    <!--<div class="img-wrapper">
-                        <img src="assets/imgs/folio-4.jpg" alt="MyFAQ">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5></h5>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>-->                  
+                    </div>         
+                       
                 </div>
-                <!--Third column-->
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img class="folio-img" src="assets/img/monOranger.png" alt="monOranger">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Mon Oranger</h5>
-                                <div class="overlay-item-zoom"><img class="overlay-img" src="assets/img/icons/zoom.png" alt="icon-linkedin"></div>
-                            </div>  
-                        </div>
-                    </div>        
-                </div>
+                           
             </div>
         </div>
     </section>
@@ -250,9 +249,9 @@
     <!-- Contact Section -->
     <section id="contact" class="position-relative section">
         <div class="container text-center">
-            <h6 class="subtitle">Contactez - moi</h6>
+            <h6 class="subtitle">Contactez-moi</h6>
             <h6 class="section-title mb-4">Vous souhaitez en savoir plus sur moi ?</h6>
-            <p class="mb-5 pb-4">N'hésitez surtout pas à me laisser un message ou à m'appeler. Je serai ravie de vous répondre dans les plus brefs délais !</p>
+            <p class="mb-5 pb-4">N'hésitez surtout pas à me laisser un message ou à m'appeler. Je serai ravie d'échanger avec vous!</p>
 
             <div class="contact text-left"> 
                 <div class="contact-infos">
@@ -267,7 +266,7 @@
                         <img class="contact-img" src="assets/img/icons/telephone.png" alt="icon-telephone">
                         <div>
                             <h5>Téléphone</h5>
-                            <p>07 61 43 95 98</p>
+                            <p><a href="tel:+33761439598">07 61 43 95 98</a></p>
                         </div>                          
                     </div>
                     <div class="item">
@@ -303,14 +302,8 @@
         </div>
     </footer> 
     <!-- End of page footer -->
-	
-	<!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-    <!-- bootstrap 3 affix -->
-	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <!-- steller js -->
+    <!-- script js -->
     <script src="assets/js/script.js"></script>
 
 </body>
