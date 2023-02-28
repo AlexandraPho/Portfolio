@@ -19,19 +19,3 @@ const navLinks = document.querySelectorAll(".nav-link").forEach(
 		navBar.classList.remove('mobile-menu');
 	})
 )
-
-// Click Zoom Portfolio
-const overlayItemZoom = document.querySelector(".overlay-item-zoom");
-const folioImage = document.querySelector(".folio-img-zoom");
-overlayItemZoom.addEventListener('click',()=>{
-	console.log('CLICK OK'); //Test OK
-	folioImage.classList.toggle('zoom-image');
-	
-})
-
-const body = document.getElementById("#home").forEach(
-	// Add an eventListener
-	body.addEventListener('click', ()=> {
-		folioImage.classList.remove('zoom-image');
-	})
-)

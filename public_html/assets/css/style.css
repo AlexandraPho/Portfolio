@@ -34,7 +34,7 @@
     line-height: 1.5;
     color: #495057;
     text-align: left;
-    background-color: #fff;
+    background-color: #ffffff;
   }
   
   [tabindex="-1"]:focus {
@@ -650,6 +650,7 @@
     margin-right: -15px;
     margin-left: -15px;
     align-items: center;
+    justify-content: center;
   }
   
   .no-gutters {
@@ -11292,7 +11293,7 @@
   }
   
   .custom-card:hover, .custom-card:active {
-    background: rgba(176, 94, 101, 0.5);
+    background: rgba(103, 165, 157, 0.5);
     color: #fff;
   }
   
