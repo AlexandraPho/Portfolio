@@ -1,3 +1,5 @@
 # My personnal Portfolio
 
-<img src="portfolio.png">
+<img src="HomePage-Portfolio.png">
+<hr>
+<img src="projectsPage-Portfolio.png">
